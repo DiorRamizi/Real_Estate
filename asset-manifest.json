@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Real_Estate/static/css/main.396e6b40.css",
+    "main.js": "/Real_Estate/static/js/main.5da5faac.js",
+    "static/media/video1.mp4": "/Real_Estate/static/media/video1.dc9d54437591be96269b.mp4",
+    "static/media/video2.mp4": "/Real_Estate/static/media/video2.36cc87473c51faef0843.mp4",
+    "static/media/chicago.png": "/Real_Estate/static/media/chicago.54ab2ecfcc4e7facfccc.png",
+    "static/media/newyork.png": "/Real_Estate/static/media/newyork.2dc8a43d93b413710280.png",
+    "static/media/lasvegas.png": "/Real_Estate/static/media/lasvegas.7b4635d9a24f8c223425.png",
+    "static/media/miami.png": "/Real_Estate/static/media/miami.a1706a893a9a52df9fbb.png",
+    "static/media/logo.png": "/Real_Estate/static/media/logo.4ad436cad38d8af8b47a.png",
+    "index.html": "/Real_Estate/index.html",
+    "main.396e6b40.css.map": "/Real_Estate/static/css/main.396e6b40.css.map",
+    "main.5da5faac.js.map": "/Real_Estate/static/js/main.5da5faac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.396e6b40.css",
+    "static/js/main.5da5faac.js"
+  ]
+}
