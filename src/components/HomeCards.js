@@ -6,7 +6,7 @@ function HomeCards() {
     const [properties, setProperties] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/api/properties")
+        fetch("https://real-estate-b5yi.onrender.com/api/properties")
             .then(response => response.json())
             .then(data => setProperties(data.slice(0, 3)))
             .catch(error => console.error("Error fetching properties:", error));
@@ -20,7 +20,7 @@ function HomeCards() {
                     <ul className='cards-items'>
                         {properties.map((property) => (
                             <li key={property.id} className='cards-item'>
-                                <Link to={`/property/${property.id}`} className='cards-item-link'>
+                                <Link to={`/properties/${property.id}`} className='cards-item-link'>
                                     <figure className='cards-item-pic-wrap'>
                                         <img
                                             src={property.photos[0]}
